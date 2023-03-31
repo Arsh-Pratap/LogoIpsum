@@ -311,7 +311,7 @@
     }
 .navbar-logo{
     margin-inline: 20px;
-    padding-block:20px ;
+    padding-block:15px ;
 
 }
 .navbar-toggler{
@@ -430,6 +430,16 @@
     .search-section h3 {
         text-align: center;
     }
+    .footer-logo{
+        width: 100%;
+    }
+    .footer-logo p {
+        width: 85%;
+    }
+    .footer{
+        justify-content: flex-start;
+       margin-inline: 20px;
+    }
 }
 @media screen and (max-width:830px) {
 
@@ -479,5 +489,13 @@
     }
     .features{
         margin-top: 40px;
+    }
+}
+@media screen and (max-width:571px){
+    .team-card {
+        height: 350px;
+        width: 374px;
+        padding: 38px 80px ;
+
     }
 }
