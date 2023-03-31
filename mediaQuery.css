@@ -311,7 +311,7 @@
     }
 .navbar-logo{
     margin-inline: 20px;
-    padding-block:10px ;
+    padding-block:20px ;
 
 }
 .navbar-toggler{
@@ -445,9 +445,7 @@
 }
 
 @media screen and (max-width:705px){
-    .header{
-        height: 90vh;
-    }
+
     h1 {
         font-size: 42px;
         line-height: 60px;
