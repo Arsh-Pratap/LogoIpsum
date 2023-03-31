@@ -305,22 +305,25 @@
         display:block;
         position: fixed;
         width: 100vw;
-       margin-top: none;
-       /* transform: translateY(-12vh); */
+      
        z-index: 3;
+      
     }
 .navbar-logo{
-    margin-inline: 20px;
-    padding-block:15px ;
+    padding-inline: 20px;
+  
 
 }
 .navbar-toggler{
-    margin-inline: 20px;
+    padding-inline: 20px;
     border: none !important;
+    padding-block:15px ;
 }
 .toggle-btn{
     border: #8559ff !important;
     color: #F6F3FF;
+    padding-top:15px ;
+  
 }
 .navbar-toggler:focus{
     box-shadow: 0px 0px 2px 3px rgb(127, 87, 241) !important;
@@ -438,7 +441,7 @@
     }
     .footer{
         justify-content: flex-start;
-       margin-inline: 20px;
+      
     }
 }
 @media screen and (max-width:830px) {
