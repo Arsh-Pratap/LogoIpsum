@@ -317,7 +317,7 @@
 .navbar-toggler{
     padding-inline: 20px;
     border: none !important;
-    padding-block:15px ;
+    padding-block:16px ;
 }
 .toggle-btn{
     border: #8559ff !important;
@@ -326,7 +326,7 @@
   
 }
 .navbar-toggler:focus{
-    box-shadow: 0px 0px 2px 3px rgb(127, 87, 241) !important;
+    box-shadow: 0px 0px 0px 0px rgb(127, 87, 241) !important;
 }
     .featured-properties-images {
         flex-direction: row;
